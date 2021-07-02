@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="4.179" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="JOB_NAME" value="ebankingV1_Maven"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8081/job/ebankingV1_Maven/1/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/ferhanali/.jenkins"/>
+    <property name="PATH" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="e8ef07c2d8cff550"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_252-b09"/>
+    <property name="user.name" value="ferhanali"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="ebankingV1_Maven"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8081/job/ebankingV1_Maven/1/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="TMPDIR" value="/var/folders/69/qmnhp78951d0yql2gm8gbfs00000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib"/>
+    <property name="java.version" value="1.8.0_252"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/zsh"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/ferhanali/Downloads/apache-maven-3.6.3/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.16"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8081/job/ebankingV1_Maven/1/display/redirect"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8081/job/ebankingV1_Maven/1/display/redirect?page=artifacts"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.252-b09"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8081/job/ebankingV1_Maven/display/redirect"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="ferhanali"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/ferhanali"/>
+    <property name="user.home" value="/Users/ferhanali"/>
+    <property name="BUILD_TAG" value="jenkins-ebankingV1_Maven-1"/>
+    <property name="JENKINS_SERVER_COOKIE" value="e8ef07c2d8cff550"/>
+    <property name="HUDSON_URL" value="http://localhost:8081/"/>
+    <property name="XPC_SERVICE_NAME" value="homebrew.mxcl.jenkins-lts"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/Users/ferhanali/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="JAVA_MAIN_CLASS_96865" value="Main"/>
+    <property name="maven.home" value="/Users/ferhanali/Downloads/apache-maven-3.6.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.class.path" value="/Users/ferhanali/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/Users/ferhanali/Downloads/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar:/Users/ferhanali/Downloads/apache-maven-3.6.3/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/ferhanali/Downloads/apache-maven-3.6.3/ /Users/ferhanali/.jenkins/war/WEB-INF/lib/remoting-4.7.jar /Users/ferhanali/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/ferhanali/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 60681"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/Users/ferhanali/Downloads/apache-maven-3.6.3/"/>
+    <property name="java.io.tmpdir" value="/var/folders/69/qmnhp78951d0yql2gm8gbfs00000gn/T/"/>
+    <property name="CI" value="true"/>
+    <property name="HUDSON_HOME" value="/Users/ferhanali/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/ferhanali/Downloads/apache-maven-3.6.3//bin"/>
+    <property name="BUILD_URL" value="http://localhost:8081/job/ebankingV1_Maven/1/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.zDTMMAuqER/Listeners"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.ext.dirs" value="/Users/ferhanali/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/ferhanali/ebankingV1"/>
+    <property name="JOB_URL" value="http://localhost:8081/job/ebankingV1_Maven/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="/Users/ferhanali/Downloads/apache-maven-3.6.3/"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="JENKINS_URL" value="http://localhost:8081/"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/ferhanali/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="/Users/ferhanali/.jenkins/workspace/ebankingV1_Maven@tmp"/>
+    <property name="WORKSPACE" value="/Users/ferhanali/.jenkins/workspace/ebankingV1_Maven"/>
+    <property name="maven3.interceptor.common" value="/Users/ferhanali/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="ferhanali"/>
+  </properties>
+  <testcase name="loginTest" classname="com.ebanking.testCases.TC_LoginTest_001" time="0.571">
+    <failure message="unexpected alert open: {Alert text : User or Password is not valid}&#10;  (Session info: chrome=91.0.4472.114): User or Password is not valid&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MacBook-Pro&apos;, ip: &apos;fe80:0:0:0:1c08:89b1:983d:5a9f%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_252&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/69/qmnhp78951d...}, goog:chromeOptions: {debuggerAddress: localhost:60690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a030f6dfa4c2f70361976d80ecd65be9" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=91.0.4472.114): User or Password is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro', ip: 'fe80:0:0:0:1c08:89b1:983d:5a9f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/69/qmnhp78951d...}, goog:chromeOptions: {debuggerAddress: localhost:60690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a030f6dfa4c2f70361976d80ecd65be9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+	at com.ebanking.testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:29)
+</failure>
+    <system-out><![CDATA[2021-07-01 23:24:19 INFO  ebankingV1:18 - URL is opened
+2021-07-01 23:24:19 INFO  ebankingV1:22 - Entered username
+2021-07-01 23:24:19 INFO  ebankingV1:25 - Entered password
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 39398
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 01, 2021 11:24:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:ERROR Could not find value for key log4j.appender.INFO
+log4j:ERROR Could not instantiate appender named "INFO".
+]]></system-err>
+  </testcase>
+  <testcase name="addNewCustomer" classname="com.ebanking.testCases.TC_AddCustomerTest_003" time="3.608">
+    <failure message="unexpected alert open: {Alert text : User or Password is not valid}&#10;  (Session info: chrome=91.0.4472.114): User or Password is not valid&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MacBook-Pro&apos;, ip: &apos;fe80:0:0:0:1c08:89b1:983d:5a9f%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_252&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/69/qmnhp78951d...}, goog:chromeOptions: {debuggerAddress: localhost:60717}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: aa636fd96e5449caf68f60391d8dce14&#10;*** Element info: {Using=xpath, value=/html/body/div[3]/div/ul/li[2]/a}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=91.0.4472.114): User or Password is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro', ip: 'fe80:0:0:0:1c08:89b1:983d:5a9f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_252'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/69/qmnhp78951d...}, goog:chromeOptions: {debuggerAddress: localhost:60717}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa636fd96e5449caf68f60391d8dce14
+*** Element info: {Using=xpath, value=/html/body/div[3]/div/ul/li[2]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.ebanking.pageObjects.AddCustomerPage.clickAddNewCustomer(AddCustomerPage.java:68)
+	at com.ebanking.testCases.TC_AddCustomerTest_003.addNewCustomer(TC_AddCustomerTest_003.java:23)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 6847
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 01, 2021 11:24:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:ERROR Could not find value for key log4j.appender.INFO
+log4j:ERROR Could not instantiate appender named "INFO".
+]]></system-err>
+  </testcase>
+</testsuite>
